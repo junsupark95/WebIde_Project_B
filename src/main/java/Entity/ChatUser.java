@@ -19,6 +19,6 @@ public class ChatUser {
     @GeneratedValue
     private Long id;
     private String nickName;
-    // private String email;
-    // private String provider;
+    private String email;
+    private String provider;
 }

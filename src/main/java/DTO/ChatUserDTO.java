@@ -11,9 +11,9 @@ public class ChatUserDTO {
     // Entity.ChatUser 에 따라서 만들기
     private Long id;
     private String nickName;
-    // 필요 없을 거 같음.
-    // private String email;
-    // private String provider;
+    private String provider;
+    private String email;
+
 
     // Member 엔티티
     public static ChatUserDTO of(ChatUser chatUserEntity){
